@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: "SF Pro Display Regular";
+  src: local("SF Pro Display Regular"),
+    url(./Infrastructure//assets//fonts/SF\ Pro\ Display\ Regular.ttf)
+      format("truetype");
+}
+
+.hasnaa {
+  font-family: SF Pro Display Regular;
+  /* font-style: normal; */
+  font-size: 36px;
+  color: #222222;
+  font-weight: bold;
+}

@@ -1,0 +1,17 @@
+export default {
+    PRIMARY_BG:"#E5E5E5",
+    WHITE : "#FFFFFF",
+    BLACK : '#222222',
+    LIGHT_BLACK : "#666666",
+    DARK_BLACK : '#000000',
+    PRIMARY : '#E3C36F',
+    BLUE:"#28ACF6",
+    DARK_BLUE:"#45A1F0",
+    LIGHT_GRAY_BG : "#F4F4F4",
+    DARK_GRAY_BG:"#F1F1F1",
+    DARK_GRAY : '#999999',
+    LIGHT_GRAY_TEXT : "#C4C4C4",
+    DARK_BRaWON:"#906C0D",
+    DARK_GRAY_TEXT : "#666666",
+
+}
