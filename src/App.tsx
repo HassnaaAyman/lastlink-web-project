@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
+import WebinarDefault from './User/pages/profile/WebinarDefault';
 
 function App() {
   return (
     <div className="App">
-       <h1 className="hasnaa">Noah Stokes</h1>
-       <p>Signup Information </p>
+      <WebinarDefault/>
     </div>
   );
 }

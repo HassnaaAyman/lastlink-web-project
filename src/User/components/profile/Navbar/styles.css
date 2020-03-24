@@ -1,0 +1,45 @@
+.NavBar {
+  height: 100vh;
+  border-right: 1px solid #cccccc;
+  float: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 28vw;
+}
+
+.NavBar .NavBar-SideBar {
+  background-color: #2a2a2a;
+  float: left;
+  padding-top: 4%;
+}
+.NavBar .NavBar-WebinarIcon {
+  margin-top: 15%;
+}
+
+.NavBar .NavBar-MainBar {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.NavBar .NavBar-MainBar .NavBar-MainBar-Title {
+  font-family: SF Pro Display Regular;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  color: #222222;
+  margin-left: 5%;
+  align-self: flex-start;
+  margin-top: 5%;
+}
+
+.NavBar .NavBar-MainBar .NavBar-MainBar-SubTitle {
+  font-family: SF Pro Display Regular;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #000000;
+  margin-left: 5%;
+  align-self: flex-start;
+}
