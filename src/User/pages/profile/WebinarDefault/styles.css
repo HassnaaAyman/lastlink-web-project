@@ -1,7 +1,6 @@
 
 .WebinarDefault {
-    height: 100vh;
     background-color:#E5E5E5;
-    width: 90vw;
+    /* width: 90%; */
     margin: 0 auto;
 }

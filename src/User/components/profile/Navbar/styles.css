@@ -1,11 +1,10 @@
 .NavBar {
-  height: 100vh;
   border-right: 1px solid #cccccc;
-  float: left;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  width: 28vw;
+  width: 29vw;
+  min-height: 100vh;
+
 }
 
 .NavBar .NavBar-SideBar {
