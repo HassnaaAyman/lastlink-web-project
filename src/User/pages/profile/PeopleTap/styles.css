@@ -1,0 +1,96 @@
+.PeopleTap {
+  background-color: #ffffff;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.PeopleTap .PeopleTap-Content-Info {
+  display: flex;
+  align-self: center;
+  width: 60%;
+  flex-direction: column;
+}
+
+.PeopleTap #PeopleTap-Section2 {
+  margin-top: -0.6%;
+}
+
+.PeopleTap .PeopleTap-Content {
+  width: 61vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.PeopleTap .PeopleTap-Content-NavigationHeader {
+  margin-top: -1%;
+}
+.PeopleTap .PeopleTap-Content-NavigationHeader,
+.PeopleTap-Content-Header {
+  width: 100%;
+  display: flex;
+}
+.PeopleTap .PeopleTap-Content-Info > div{
+  display: flex;
+  flex-direction: row;
+  margin-top: 2%;
+}
+
+.PeopleTap .PeopleTap-Content .PeopleTap-Content-Info img {
+  display: flex;
+  align-self: flex-start;
+}
+
+.PeopleTap .PeopleTap-Content .PeopleTap-Content-Info div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 17px;
+}
+
+.PeopleTap .PeopleTap-Content .PeopleTap-Content-Info h3 {
+  font-family: SF Pro Display Regular;
+  font-style: normal;
+  font-size: 18px;
+  color: #000000;
+  font-weight: 600;
+  margin-bottom: 0px;
+  margin-top: 9px;
+}
+
+.PeopleTap .PeopleTap-Content .PeopleTap-Content-Info p {
+  font-family: SF Pro Display Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 0px;
+  color: #999999;
+}
+
+.PeopleTap .PeopleTap-Content .PeopleTap-Content-Info a {
+  font-family: SF Pro Display Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #28acf7;
+  text-decoration: none;
+}
+
+.PeopleTap .PeopleTap-Content .PeopleTap-Content-Info hr {
+    width: 100%;
+  height: 0px;
+  margin-top: 3%;
+  border: 1px solid #cccccc;
+}
+
+.PeopleTap .PeopleTap-Content .PeopleTap-Content-Info h4{
+
+font-family: SF Pro Display Regular;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+ margin: 0px;
+color: #000000;
+}

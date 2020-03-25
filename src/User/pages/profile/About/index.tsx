@@ -35,7 +35,6 @@ const About: React.Fc<{}> = (): JSX.Element => {
           <NavigationSubHeader />
         </div>
         <div className="About-Content-Info">
-          <h3>Last Link URL</h3>
           <div>
             <h3>mylastlink.com/w/a13ca31 </h3>
             <a href=" ">Copy to Clipboard </a>
