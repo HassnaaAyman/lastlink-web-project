@@ -1,3 +1,6 @@
+
+## please do this when get clone this project => npm install then yarn start. 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

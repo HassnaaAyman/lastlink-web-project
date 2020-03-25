@@ -2,7 +2,7 @@ import React from "react";
 import "./styles.css";
 
 //components imports
-import NavBar from "../../../components/profile/Navbar";
+import NavBar from "../../../components/main/Navbar";
 import AddIcon from "../../../../Infrastructure/assets/svg/add-icon";
 import HostedSection from "../../../../Infrastructure/assets/svg/hosted-section";
 import AttendedSection from "../../../../Infrastructure/assets/svg/attended-section";

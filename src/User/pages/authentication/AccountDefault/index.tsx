@@ -2,7 +2,7 @@ import React from "react";
 import "./styles.css";
 
 //components imports
-import NavBar from "../../../components/profile/Navbar";
+import NavBar from "../../../components/main/Navbar";
 import SettingsSection from '../../../assets/svg/settings-section';
 
 const img =require('../../../assets/images/edit-profile.png');

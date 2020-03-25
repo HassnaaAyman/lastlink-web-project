@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.css";
-import WebinarDefault from "./User/pages/profile/WebinarDefault";
+import WebinarDefault from "./User/pages/main pages/WebinarDefault";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import About from "./User/pages/profile/About";
-import PeopleTap from "./User/pages/profile/PeopleTap";
+import About from "./User/pages/static pages/About";
+import PeopleTap from "./User/pages/main pages/PeopleTap";
 import AccountDefault from "./User/pages/authentication/AccountDefault";
 
-const App: React.Fc<{}> = (): JSX.Element => {
+const App: React.Fc= ()=> {
   return (
     <div className="App">
         <BrowserRouter>
