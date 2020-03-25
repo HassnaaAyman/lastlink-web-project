@@ -1,20 +1,21 @@
 .About {
   background-color: #ffffff;
+  width: 90%;
   margin: 0 auto;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  min-height: 100vh;
 }
 
-.About #About-Section2{
-  margin-top: -.6%;
+.About #About-Section2 {
+  margin-top: -0.6%;
 }
 
 .About .About-Content {
   width: 61vw;
   display: flex;
-    flex-direction: column;
-    align-items: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .About .About-Content-NavigationHeader {
@@ -26,12 +27,12 @@
   display: flex;
 }
 
-.About .About-Content .About-Content-Info img{
+.About .About-Content .About-Content-Info img {
   display: flex;
   align-self: center;
 }
 
-.About .About-Content #About-Content-img{
+.About .About-Content #About-Content-img {
   display: flex;
   flex-direction: row;
 }
@@ -51,7 +52,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.About .About-Content .About-Content-Info .About-Content-Info-Parghraph{ 
+.About .About-Content .About-Content-Info .About-Content-Info-Parghraph {
   display: flex;
   flex-direction: row;
   justify-content: space-between;

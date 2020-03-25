@@ -12,7 +12,7 @@ import Parghraph from "../../../assets/svg/pargaraph";
 import Parghraph2 from "../../../assets/svg/parghraph2";
 import HostSection from "../../../assets/svg/host-section";
 
-const img = require('../../../assets/images/Ellipse.png');
+const img = require("../../../assets/images/Ellipse.png");
 
 const About: React.Fc<{}> = (): JSX.Element => {
   //local variables
@@ -20,13 +20,17 @@ const About: React.Fc<{}> = (): JSX.Element => {
   const subTitle = "Hosted by me";
   return (
     <div className="About">
-        <NavBar
-          title={title}
-          subTitle={subTitle}
-          content1={<AddIcon />}
-          content2={<div id="About-Section2"><NetworkingSection /></div>}
-          content3={<AttendedSection2 />}
-        />
+      <NavBar
+        title={title}
+        subTitle={subTitle}
+        content1={<AddIcon />}
+        content2={
+          <div id="About-Section2">
+            <NetworkingSection />
+          </div>
+        }
+        content3={<AttendedSection2 />}
+      />
       <div className="About-Content">
         <div className="About-Content-Header">
           <Header />
@@ -35,6 +39,7 @@ const About: React.Fc<{}> = (): JSX.Element => {
           <NavigationSubHeader />
         </div>
         <div className="About-Content-Info">
+          <h3> Last Link URL </h3>
           <div>
             <h3>mylastlink.com/w/a13ca31 </h3>
             <a href=" ">Copy to Clipboard </a>
@@ -49,7 +54,7 @@ const About: React.Fc<{}> = (): JSX.Element => {
           </div>
           <h3>Host</h3>
           <div id="About-Content-img">
-            <img alt="" src={img}/>
+            <img alt="" src={img} />
             <HostSection />
           </div>
         </div>

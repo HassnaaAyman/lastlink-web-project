@@ -6,4 +6,7 @@ export default interface navBarProps {
     content1? : ReactNode;
     content2?:  ReactNode;
     content3? : ReactNode;
+    userInfo? :ReactNode;
+    editProfile?:ReactNode;
+    accountTitle? :ReactNode;
 }
