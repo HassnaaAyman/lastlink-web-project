@@ -2,15 +2,15 @@ import React from "react";
 import "./styles.css";
 
 //components imports
-import NavBar from "../../../components/main/Navbar";
-import AddIcon from "../../../../Infrastructure/assets/svg/add-icon";
-import NetworkingSection from "../../../../Infrastructure/assets/svg/networking-section";
-import AttendedSection2 from "../../../../Infrastructure/assets/svg/attended-section2";
-import Header from "../../../components/main/Header/header";
-import NavigationSubHeader from "../../../components/main/NavigationSubHeader/navigation-header";
-import Parghraph from "../../../assets/svg/pargaraph";
-import Parghraph2 from "../../../assets/svg/parghraph2";
-import HostSection from "../../../assets/svg/host-section";
+import NavBar from "../../Infrastructure/components/Navbar";
+import AddIcon from "../../Infrastructure/assets/svg/add-icon";
+import NetworkingSection from "../../Infrastructure/assets/svg/networking-section";
+import AttendedSection2 from "../../Infrastructure/assets/svg/attended-section2";
+import Header from "../../Infrastructure/components/Header/header";
+import NavigationSubHeader from "../../Infrastructure/components/NavigationSubHeader/navigation-header";
+import Parghraph from "../../User/assets/svg/pargaraph";
+import Parghraph2 from "../../User/assets/svg/parghraph2";
+import HostSection from "../../User/assets/svg/host-section";
 
 const img = require("../../../assets/images/Ellipse.png");
 

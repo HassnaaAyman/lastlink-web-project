@@ -2,13 +2,13 @@ import React from "react";
 import "./styles.css";
 
 // interfaces
-import Props from "../../../../Infrastructure/interfaces/navBar.interface";
+import Props from "../../interfaces/navBar.interface";
 
-import RectangleIcon from "../../../../Infrastructure/assets/svg/logo-icon";
-import WebinarIcon from "../../../../Infrastructure/assets/svg/webinar-icon";
-import AccountIcon from "../../../../Infrastructure/assets/svg/account-icon";
-import AccountIconActive from "../../../assets/svg/account-icon-active";
-import WebinarIconInactive from "../../../assets/svg/webinar-icon-inactive";
+import RectangleIcon from "../../assets/svg/logo-icon";
+import WebinarIcon from "../../assets/svg/webinar-icon";
+import AccountIcon from "../../assets/svg/account-icon";
+import AccountIconActive from "../../../User/assets/svg/account-icon-active";
+import WebinarIconInactive from "../../../User/assets/svg/webinar-icon-inactive";
 
 const NavBar: React.FC<Props> = ({
   title,

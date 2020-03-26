@@ -2,13 +2,13 @@ import React from "react";
 import "./styles.css";
 
 //components imports
-import NavBar from "../../../components/main/Navbar";
-import AddIcon from "../../../../Infrastructure/assets/svg/add-icon";
-import NetworkingSection from "../../../../Infrastructure/assets/svg/networking-section";
-import AttendedSection2 from "../../../../Infrastructure/assets/svg/attended-section2";
-import Header from "../../../components/main/Header/header";
-import NavigationSubHeader from "../../../components/main/NavigationSubHeader2";
-import UserInfoCard from "../../../components/profile/UserInfoCard";
+import NavBar from "../Infrastructure/components/Navbar";
+import AddIcon from "../Infrastructure/assets/svg/add-icon";
+import NetworkingSection from "../Infrastructure/assets/svg/networking-section";
+import AttendedSection2 from "../Infrastructure/assets/svg/attended-section2";
+import Header from "../Infrastructure/components/Header/header";
+import NavigationSubHeader from "../Infrastructure/components/NavigationSubHeaderForPeopleTap";
+import UserInfoCard from "../User/components/profile/UserInfoCard";
 
 const img = require("../../../assets/images/Ellipse.png");
 
