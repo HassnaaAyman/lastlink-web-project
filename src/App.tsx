@@ -6,7 +6,7 @@ import About from "./User/pages/static pages/About";
 import PeopleTap from "./User/pages/main pages/PeopleTap";
 import AccountDefault from "./User/pages/authentication/AccountDefault";
 
-const App: React.Fc= ()=> {
+const App: React.FC= ()=> {
   return (
     <div className="App">
         <BrowserRouter>
