@@ -1,7 +1,7 @@
 import React from "react";
 import Props from "../../../interfaces/userInfo.interface";
 
-const UserInfoCard: React<Props> = ({
+const UserInfoCard: React.FC<Props> = ({
   img,
   name,
   position,
@@ -18,7 +18,7 @@ const UserInfoCard: React<Props> = ({
           <h3>{name}</h3>
           <p>{position}</p>
           <a href=" ">{note}</a>
-  <h4>{hint}</h4>
+          <h4>{hint}</h4>
         </div>
       </div>
       <hr />
